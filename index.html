@@ -7,9 +7,29 @@ layout: default
 			</header>
 
 			<div>
-<p>a simple jekyll site</p>
-<p><a href="http://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde">Strange Case of Dr.Jekyll and Mr.Hyde</a></p>
-<p>Got my Jekyll runnin'.</p>			
+		<p>A simple jekyll site</p>
+		<p>
+			<a href="http://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde">Strange Case of Dr.Jekyll and Mr.Hyde</a>
+		</p>
+		<p>
+			Got my Jekyll runnin'.
+		</p>
+		<h2>Types of Planets</h2>
+		<ol>
+		{% for planet in site.categories.planet-type %}
+			{{planet.title}}
+		{% endfor %}
+		</ol>
+		<h2>Mad Scientist List</h2>
+		<ul>
+			{% for news in site.categories.mad-scientists limit:2 %}
+			<li>
+				<a href="{{news.source}}">{{news.title}}</a>
+				<p>
+					{{news.meta}}
+				</p>
+			</li>
+			{% endfor %}
+		</ul>
 			</div>
 		</div>
-	

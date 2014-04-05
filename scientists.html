@@ -1,0 +1,14 @@
+---
+layout: news
+---
+
+<h1>Mad Scientists</h1>
+
+<ul>
+	{% for news in site.categories.mad-scientists %}
+	<li>
+		<a href="{{news.source}}">{{news.title}}</a>
+		<p>{{news.meta}}</p>
+	</li>
+	{% endfor %}
+</ul>
