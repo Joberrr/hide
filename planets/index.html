@@ -4,9 +4,9 @@ layout: default
 
 <h1>Planets</h1>
 
-		<h2>Types of Planets</h2>
-		<ol>
-		  {% for planet in site.categories.planet-type %}
-			  {{planet.title}}
+		<h2>Dwarf Planets</h2>
+		<ul>
+		  {% for planet in site.pages %}
+			  <li>{{planet.title}}</li>
 		  {% endfor %}
-		</ol>
+		</ul>
