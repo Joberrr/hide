@@ -3,3 +3,10 @@ layout: default
 ---
 
 <h1>Planets</h1>
+
+		<h2>Types of Planets</h2>
+		<ol>
+		  {% for planet in site.categories.planet-type %}
+			  {{planet.title}}
+		  {% endfor %}
+		</ol>
