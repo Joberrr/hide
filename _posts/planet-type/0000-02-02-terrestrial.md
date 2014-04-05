@@ -1,6 +1,6 @@
 --
 title: Terrestrial
-category: trees
+category: planet-type
 folder: terrestrial
 ---
 
