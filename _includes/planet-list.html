@@ -1,7 +1,9 @@
 <ul>
 		  {% for planet in site.pages %}
 		    {%if planet.type == include.type %}
+		    <img src="{{site.baseurl}}/planets/img/{{planet.image}}" alt="" />
 			  <li>{{planet.title}}</li>
+			  <p>{{planet.meta}}</p>
 			{% endif %}
 		  {% endfor %}
 		</ul>
