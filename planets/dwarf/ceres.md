@@ -1,7 +1,7 @@
 ---
 layout: planet
 title: Ceres
-meta: Ceres is the largest asteroid and the only dwarf planet
+meta: Ceres is the largest asteroid and the only dwarf planet in the inner Solar system
 type: dwarf
 discoverer: Giuseppe Piazzi
 discovered: 1801-01-01
@@ -12,4 +12,4 @@ image: ceres.jpg
 source: http://en.wikipedia.org/wiki/Ceres_(dwarf_planet)
 ---
 
-*Ceres* is the largest asteroid and the only dwarf planet in the inner Solar system.
+*Ceres* is the largest object in the asteroid belt and the only dwarf planet in the inner Solar system.
