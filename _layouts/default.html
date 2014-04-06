@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>{% if page.title %}{{page.title}} • {% endif %}</title>
-		<meta name="description" content="">
+		<title>{% if page.title %}{{page.title}} • {% endif %}Hyde the Jekyll Site</title>
+		<meta name="description" content="{% if page.meta %}{{page.meta}} • {% endif %}">
 		<meta name="author" content="Jobe Roberts">
 
 		<meta name="viewport" content="width=device-width; initial-scale=1.0">
@@ -17,7 +17,7 @@
 
 	<body>
 		<header class="masthead {{page.mastheadClass}}">
-			<h1>{% if page.title Hide %}{{page.title}} • {% endif %}</h1>
+			<h1>{% if page.title Hide %}{{page.title}} • {% endif %}Hyde</h1>
 			{% include nav.html navclass='nav-top' %}
 		</header>
 	{{content}}

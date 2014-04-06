@@ -9,7 +9,7 @@
 	  {% include sitemap-entry.xml entry=post %}
 	{% endfor %}
 	
-	{% for post in site.pages %}
+	{% for page in site.pages %}
 	{% if page.layout %}
 	  {% include sitemap-entry.xml entry=page %}
 	  {% endif %}

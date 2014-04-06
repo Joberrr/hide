@@ -3,8 +3,12 @@
 	  <loc>http://joberrr.github.io{{site.baseurl}}{{include.entry.url}}</loc>
 		{% if include.entry.changefreq %}
 		  <changefreq>{{include.entry.changefreq}}</changefreq>
+		{% else %}
+		  <priority>monthly</priority>
 		{% endif %}
 		{% if include.entry.priority %}
 		  <priority>{{include.entry.priority}}</priority>
+		{% else %}
+		  <priority>0.5</priority>
 		{% endif %}
 </url>
