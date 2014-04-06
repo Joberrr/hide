@@ -2,7 +2,7 @@
 layout: planet
 title: Saturn
 meta: Saturn is the second largest gas giant planet in the Solar system.
-type: gas giant
+type: gas-giant
 discoverer: n/a
 discovered: prehistoric
 orbit: 29.4571 years

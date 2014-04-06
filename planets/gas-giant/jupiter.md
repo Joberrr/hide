@@ -2,7 +2,7 @@
 layout: planet
 title: Jupiter
 meta: Jupiter is the largest gas giant planet in the Solar system.
-type: gas giant
+type: gas-giant
 discoverer: 
 discovered: 7th or 8th century BC
 orbit: 11.86 years

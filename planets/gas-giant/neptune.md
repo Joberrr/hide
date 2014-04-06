@@ -2,7 +2,7 @@
 layout: planet
 title: Neptune
 meta: Neptune is the third largest gas giant planet in the Solar system.
-type: gas giant
+type: gas-giant
 discoverer: Urbain Le Verrier
 discovered: 23 September 1846
 orbit: 164.79 years
