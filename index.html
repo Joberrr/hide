@@ -17,7 +17,7 @@ layout: default
 		<h2>Types of Planets</h2>
 		<ol>
 		  {% for planet in site.categories.planet-type %}
-			  <li><a href="#">{{planet.title}}</a></li>
+			  <li><a href="{{site.baseurl}}/planets/{{planet.folder}}/">{{planet.title}}</a></li>
 		  {% endfor %}
 		</ol>
 		<h2>Mad Scientist List</h2>

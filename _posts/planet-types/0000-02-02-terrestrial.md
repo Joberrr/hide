@@ -4,4 +4,4 @@ category: planet-type
 folder: terrestrial
 ---
 
-Terrestrial planet is like earth.
+A **terrestrial planet** is like earth.
