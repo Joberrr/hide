@@ -12,4 +12,6 @@ image: neptune.jpg
 source: http://en.wikipedia.org/wiki/Neptune
 ---
 
-*Neptune* is the third largest gas giant planet in the Solar system.
+*Neptune* is the eighth and farthest planet in the Solar system.
+
+Neptune is 17 times the mass of the Earth.

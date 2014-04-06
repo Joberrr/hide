@@ -1,0 +1,15 @@
+
+/*** Masthead CSS  ***/
+
+.masthead {
+	padding: 1em;
+	background: #000531 url("../images/rosette-nebula.jpg") no-repeat center;
+	background-size: cover;
+	color: #fff;
+	
+}
+
+.masthead-planets {
+	background: url("../images/blue-nebula.jpg") no-repeat center;
+	
+}

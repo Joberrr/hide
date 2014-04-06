@@ -12,4 +12,6 @@ image: jupiter.jpg
 source: http://en.wikipedia.org/wiki/Jupiter
 ---
 
-*Jupiter* is the largest gas giant planet in the Solar system.
+*Jupiter* is primarily composed of hydrogen with a quarter of its mass being helium.
+
+A prominent feature is the Great Spot a is a giant storm that has been going on since at least 17th century.
