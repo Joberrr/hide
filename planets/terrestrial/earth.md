@@ -12,4 +12,4 @@ image: earth.jpg
 source: http://en.wikipedia.org/wiki/Earth
 ---
 
-*Saturn* is the second largest gas giant planet in the Solar system.
+*Earth* is our home.
