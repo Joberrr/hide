@@ -1,7 +1,7 @@
 ---
 layout: planet
-title: Earth
-meta: Earth is our home.
+title: Venus
+meta: Venus is one of the four terrestrial planets in the Solar System.
 type: terrestrial
 discoverer: n/a
 discovered: n/a
